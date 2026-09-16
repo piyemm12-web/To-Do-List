@@ -1,0 +1,11 @@
+{
+  "name": "react-native-todo-app-root",
+  "version": "1.0.0",
+  "description": "Root workspace runner for React Native To-Do App and Backend API",
+  "scripts": {
+    "seed": "cd backend && npm run seed",
+    "backend": "cd backend && npm run dev",
+    "mobile": "cd mobile && npm run android",
+    "start": "cd mobile && npm start"
+  }
+}
